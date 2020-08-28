@@ -1,0 +1,24 @@
+{
+  "name": "darklandsmcbot",
+  "version": "1.0.0",
+  "description": "This is the Custom Bot for DarkLandsMC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepigstupo/DarkLandsMC-bot.git"
+  },
+  "author": "ThePigStupo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thepigstupo/DarkLandsMC-bot/issues"
+  },
+  "homepage": "https://github.com/thepigstupo/DarkLandsMC-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0"
+  }
+}
